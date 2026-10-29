@@ -1,0 +1,12 @@
+{
+  "name": "montessori-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MontesSori - Plataforma Educativa Inteligente e Inclusiva (MIT Solve 2027)",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install --prefix frontend",
+    "server": "venv\\Scripts\\python backend\\manage.py runserver 127.0.0.1:8000"
+  }
+}
